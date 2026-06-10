@@ -45,8 +45,4 @@ export const generateGeminiResponse = async (prompt) => {
         console.error("Gemini Fetch Error:", error.message);
     throw new Error("Gemini API fetch failed");
     }
-<<<<<<< HEAD
-   
-=======
->>>>>>> 4b6c87b (Auto update)
 }
